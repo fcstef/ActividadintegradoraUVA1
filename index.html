@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    
 </head>
+
 
 <style>
     .img {
@@ -13,13 +16,47 @@
         height: 250px;
     }
 
+    ul{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.fondoparrafo{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border: solid;
+    border-color: white;
+    font-size: 95%;
+    
+}
+
+
+.imagen{
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
 </style>
 
 <body>
     <header>
     <h1>Facundo Stefani</h1>
+    <div class="menu">
     <nav>
-        <ul>
+    <ul>
             <li>HOME</li>
             <li><a href="sobremi.html">SOBRE MI</li></a>
             <li><a href="curriculum.html">CURRICULUM</li></a>
@@ -28,22 +65,25 @@
             
         </ul>
     </nav>
+</div>
     </header>   
     <main>
       <h2>
         Presentacion
       </h2>
+      <div class="imagen">
+      <center><img src="img/selfie2.jpeg" class="img"   alt="Facundo"></center>
+    </div>
 
-      <img src="selfie2.jpeg" class="img"   alt="Facundo">
-
-       <p>Mi nombre es Facundo Stefani, estudiante de la Licenciatura en Gestion de Tecnologia de la Información de la Universidad Argentina de la Empresa.Tengo 28 años y resido en Buenos Aires.</p>
+       <div class="fondoparrafo"><p>Mi nombre es Facundo Stefani, estudiante de la Licenciatura en Gestion de Tecnologia de la Información de la Universidad Argentina de la Empresa.Tengo 28 años y resido en Buenos Aires.</p>
 
        <p>Experiencia laboral muy enfocada en la atencion al cliente y al trabajo administrativo, tengo muy buena relacion con los clientes y por lo general se me da muy bien el trato con las personas.</p>
 
        <p>Soy un programador Jr en constante desarrollo para perfeccionar mis conocimientos, los cuales los utilizo aplicando diferentes ideas dentro de la Empresa donde trabajo.</p>
 
        <p>Mas detalles de mi vida Profesional y Academica en la Seccion <a href="curriculum.html">CURRICULUM</a></p>
-               
+     
+    </div>
 
 
     </main>
